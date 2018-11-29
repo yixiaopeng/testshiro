@@ -101,7 +101,7 @@ public class RedisUtils {
     }
 
     /**
-     * JSON数据，转成Object
+     * Json数据 转成Object
      */
     private <T> T fromJson(String json, Class<T> clazz){
         return JSON.parseObject(json, clazz);
